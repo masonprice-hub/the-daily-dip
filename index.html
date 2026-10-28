@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f4d6bd">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://images.unsplash.com; script-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <meta name="description" content="Meet your new favorite fall treat: crisp apples dipped in buttery caramel and finished with a little extra sweetness.">
+  <title>The Daily Dip | A little sweetness in every bite</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="The Daily Dip home" data-page-link="home">
+      <img class="brand-logo" src="images/daily-dip-logo.png" alt="The Daily Dip">
+    </a>
+    <p class="header-note">FRESH • SWEET • MADE WITH CARE</p>
+    <a class="header-cta" href="#contact" data-page-link="contact">Come say hello <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <nav class="tabs" aria-label="Website pages">
+    <button class="tab-button active" type="button" data-page="home" aria-controls="home" aria-current="page">Home</button>
+    <button class="tab-button" type="button" data-page="recipe" aria-controls="recipe">Classic recipe</button>
+    <button class="tab-button" type="button" data-page="weekly-special" aria-controls="weekly-special">Weekly special</button>
+    <button class="tab-button" type="button" data-page="contact" aria-controls="contact">Visit us</button>
+    <button class="tab-button sign-in-tab" type="button" data-page="signin" aria-controls="signin">Sign in</button>
+    <button class="tab-button" type="button" data-page="create-account" aria-controls="create-account">Create account</button>
+  </nav>
+
+  <main>
+    <section class="page" id="home">
+      <div class="hero">
+        <img
+          class="hero-photo"
+          src="https://images.unsplash.com/photo-1661179737616-95a38a48d9b2?auto=format&amp;fit=crop&amp;w=1800&amp;q=85"
+          alt="Fresh apples ready to be dipped in smooth caramel"
+          fetchpriority="high"
+        >
+        <div class="hero-shade"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">A CLASSIC WITH A LITTLE EXTRA MAGIC</p>
+          <h1>Good apples.<br><em>Great</em> caramel.</h1>
+          <p class="hero-description">Crisp apples, buttery-smooth caramel, and all the cozy feelings of a treat made with care.</p>
+          <button class="button button-light" type="button" data-page-link="recipe">See how the magic happens <span aria-hidden="true">↓</span></button>
+        </div>
+        <span class="hero-stamp" aria-hidden="true">MADE<br>WITH<br>LOVE</span>
+      </div>
+
+      <div class="intro content-width">
+        <div class="intro-heading">
+          <p class="section-label">A SWEET LITTLE HELLO</p>
+          <h2>Welcome to our stand!</h2>
+        </div>
+        <div class="intro-copy">
+          <p>We make the kind of caramel apples that turn an ordinary day into a little celebration. Start with a crisp apple, add a generous coat of smooth caramel, then finish with your favorite toppings.</p>
+          <p>Every bite is a happy mix of fresh, crunchy, creamy, and sweet. Pick one for yourself—or share the sweetness with someone you love.</p>
+          <button class="text-link" type="button" data-page-link="contact">Get to know our stand <span aria-hidden="true">→</span></button>
+        </div>
+      </div>
+
+      <div class="treat-section">
+        <div class="treat-inner content-width">
+          <div class="treat-image-wrap">
+            <img
+              class="treat-image"
+              src="https://images.unsplash.com/photo-1695834917465-513b31b8171d?auto=format&amp;fit=crop&amp;w=1000&amp;q=85"
+              alt="A tempting close-up of a sweet, freshly made treat"
+              loading="lazy"
+            >
+            <span class="image-caption">A little sweetness goes a long way.</span>
+          </div>
+          <div class="treat-copy">
+            <p class="section-label">SIMPLE JOYS, STICK AND ALL</p>
+            <h2>Made for happy<br>little moments.</h2>
+            <p>Bring one to a fall get-together, surprise your favorite person, or save the best part of the day for yourself. Our apples are all about making sweet moments even sweeter.</p>
+            <div class="treat-points">
+              <span><b>01</b> Crisp, juicy apples</span>
+              <span><b>02</b> Silky caramel coating</span>
+              <span><b>03</b> Your favorite fun toppings</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="closing-note content-width">
+        <span class="closing-star" aria-hidden="true">✳</span>
+        <p>Our goal is simple: make every customer’s day a little sweeter.</p>
+        <span class="closing-star" aria-hidden="true">✳</span>
+      </div>
+    </section>
+
+    <section class="page" id="recipe" hidden>
+      <div class="page-heading content-width">
+        <p class="section-label">MADE FRESH, MADE WITH CARE</p>
+        <h1>How to make<br><em>caramel apple magic</em></h1>
+        <p>A cozy kitchen classic with crisp apples, smooth caramel, and room for all your favorite toppings.</p>
+      </div>
+      <div class="recipe-layout content-width">
+        <aside class="recipe-sidebar">
+          <div class="recipe-photo-frame">
+            <img
+              src="https://images.unsplash.com/photo-1661179737616-95a38a48d9b2?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+              alt="Apples for a homemade caramel apple recipe"
+              loading="lazy"
+            >
+          </div>
+          <div class="recipe-facts">
+            <span>MAKES</span><strong>6 apples</strong>
+            <span>YOU’LL NEED</span><strong>A little patience &amp; a grown-up helper</strong>
+          </div>
+          <p class="safety-note">Hot caramel can burn. Ask an adult to help with melting and dipping, and follow the caramel package directions.</p>
+        </aside>
+        <div class="recipe-content">
+          <div class="recipe-card">
+            <p class="section-label">GATHER YOUR INGREDIENTS</p>
+            <h2>The good stuff</h2>
+            <ul class="ingredient-list">
+              <li><span>6</span> medium apples</li>
+              <li><span>1 package</span> soft caramels</li>
+              <li><span>2 tbsp</span> water (or as directed on the caramel package)</li>
+              <li><span>6</span> wooden sticks</li>
+              <li><span>Optional</span> chopped nuts, sprinkles, or mini chocolate chips</li>
+            </ul>
+            <p class="small-note">You’ll also need a saucepan or microwave-safe bowl, a spoon, a baking tray, and parchment paper.</p>
+          </div>
+          <div class="directions-card">
+            <p class="section-label">LET’S MAKE SOMETHING SWEET</p>
+            <h2>One little step at a time</h2>
+            <ol class="directions-list">
+              <li><span>Wash the apples and dry them completely.</span></li>
+              <li><span>Carefully remove the stems and push a wooden stick into the top of each apple.</span></li>
+              <li><span>Line a baking tray with parchment paper.</span></li>
+              <li><span>With an adult’s help, melt the caramels with the water according to the package directions. Stir until smooth.</span></li>
+              <li><span>Dip each apple in the caramel and turn it until coated.</span></li>
+              <li><span>Add your favorite toppings while the caramel is still soft.</span></li>
+              <li><span>Set the apples on the prepared tray and let the caramel firm up before serving.</span></li>
+              <li><span>Share, enjoy, and follow safe food-handling and storage instructions.</span></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="weekly-special" hidden>
+      <div class="weekly-heading content-width">
+        <p class="section-label">A LITTLE SOMETHING EXTRA</p>
+        <h1>This week’s <em>special</em></h1>
+        <p>Cinnamon Toast Crunch, creamy white chocolate, and a buttery caramel finish. It’s a crunchy, sweet twist on our favorite caramel apple.</p>
+      </div>
+      <div class="special-feature content-width">
+        <figure class="special-photo">
+          <img
+            src="images/weekly-special.png"
+            alt="Cinnamon Toast Crunch caramel apples topped with white chocolate and caramel, pictured with the weekly special sign"
+          >
+          <figcaption>Crunchy, creamy, cinnamon-sweet, and dipped with care.</figcaption>
+        </figure>
+        <div class="special-recipe">
+          <p class="section-label">CINNAMON TOAST CRUNCH • WHITE CHOCOLATE • CARAMEL</p>
+          <h2>Cinnamon Crunch<br><em>caramel apples</em></h2>
+          <div class="special-facts">
+            <span>Makes</span><strong>4 apples</strong>
+            <span>Prep</span><strong>About 30 minutes, plus setting time</strong>
+          </div>
+          <h3>Gather your ingredients</h3>
+          <ul class="ingredient-list">
+            <li><span>4</span> crisp apples, washed and completely dried</li>
+            <li><span>1 package</span> soft caramels, plus water as directed on package</li>
+            <li><span>1 cup</span> white chocolate chips or melting wafers</li>
+            <li><span>2 cups</span> Cinnamon Toast Crunch cereal, lightly crushed</li>
+            <li><span>4</span> wooden apple sticks</li>
+            <li><span>Optional</span> extra caramel for drizzling</li>
+          </ul>
+          <p class="small-note">You’ll also need parchment paper and a baking tray. Check ingredient labels for allergens before serving.</p>
+        </div>
+      </div>
+      <div class="special-directions content-width">
+        <div>
+          <p class="section-label">YOUR NEW FAVORITE FALL TREAT</p>
+          <h2>Make the<br><em>weekly special</em></h2>
+          <p>A few simple steps turn a fresh apple into a crunchy, chocolatey, caramel-dipped treat.</p>
+          <p class="safety-note">Ask an adult to help with hot caramel and melted chocolate. Follow package directions and take care to avoid burns.</p>
+        </div>
+        <ol class="directions-list">
+          <li><span>Line a baking tray with parchment. Wash the apples, dry them completely, and carefully press a wooden stick into each stem end.</span></li>
+          <li><span>Put the Cinnamon Toast Crunch in a sealed bag and gently crush it into small, crunchy pieces. Pour the crumbs into a shallow bowl.</span></li>
+          <li><span>With an adult’s help, melt the caramels with water according to the package directions. Stir until smooth.</span></li>
+          <li><span>Dip each apple in the caramel, turning it to coat. Let the extra caramel drip off, then set the apple on the lined tray until the caramel is just tacky.</span></li>
+          <li><span>Melt the white chocolate according to its package directions. Drizzle it over the apples or dip the caramel-coated apples in it.</span></li>
+          <li><span>While the chocolate is still soft, sprinkle the crushed cereal over each apple and gently press it into the coating. Drizzle with extra caramel if you like.</span></li>
+          <li><span>Place the apples on the tray and let the coating set before serving. Store and handle them according to the package directions and safe food-handling guidance.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="page" id="signin" hidden>
+      <div class="signin-layout content-width">
+        <div class="signin-welcome">
+          <p class="section-label">A LITTLE SWEETNESS, JUST FOR YOU</p>
+          <h1>Welcome<br><em>back.</em></h1>
+          <p>Sign in to your Daily Dip account to pick up where you left off.</p>
+          <img
+            src="images/weekly-special.png"
+            alt="This week's Cinnamon Toast Crunch, white chocolate, and caramel apple special"
+            loading="lazy"
+          >
+        </div>
+        <div class="signin-card">
+          <span class="signin-icon" aria-hidden="true">♡</span>
+          <p class="section-label">YOUR SWEET LITTLE CORNER</p>
+          <h2 id="signin-heading">Sign in</h2>
+          <p class="signin-description">Enter your details below to continue.</p>
+          <div class="signin-form" role="group" aria-labelledby="signin-heading">
+            <label for="signin-email">Email address</label>
+            <input id="signin-email" type="email" placeholder="you@example.com" autocomplete="off">
+            <div class="password-label">
+              <label for="signin-password">Password</label>
+              <button type="button" class="signin-inert-link" data-signin-message="Password reset isn’t connected in this demo.">Forgot password?</button>
+            </div>
+            <input id="signin-password" type="password" placeholder="Enter your password" autocomplete="off">
+            <button type="button" class="button signin-submit">Sign in <span aria-hidden="true">→</span></button>
+            <p class="signin-feedback" role="status" aria-live="polite" hidden></p>
+          </div>
+          <p class="signin-signup">New to The Daily Dip? <button type="button" class="signin-inert-link" data-page-link="create-account">Create an account</button></p>
+          <p class="signin-demo-note">This sign-in screen is a visual demo. Account sign-in isn’t connected yet.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="create-account" hidden>
+      <div class="signin-layout content-width">
+        <div class="signin-welcome">
+          <p class="section-label">JOIN OUR SWEET LITTLE COMMUNITY</p>
+          <h1>Your next<br><em>favorite</em> starts here.</h1>
+          <p>Create a Daily Dip account to keep all your favorite treats close at hand.</p>
+          <img
+            src="images/weekly-special.png"
+            alt="This week's Cinnamon Toast Crunch, white chocolate, and caramel apple special"
+            loading="lazy"
+          >
+        </div>
+        <div class="signin-card">
+          <span class="signin-icon" aria-hidden="true">♡</span>
+          <p class="section-label">SAVE A SEAT AT THE SWEET TABLE</p>
+          <h2 id="create-account-heading">Create an account</h2>
+          <p class="signin-description">Add your details below to get started.</p>
+          <div class="signin-form" role="group" aria-labelledby="create-account-heading">
+            <label for="create-account-name">Your name</label>
+            <input id="create-account-name" type="text" placeholder="Your name" autocomplete="off">
+            <label for="create-account-email">Email address</label>
+            <input id="create-account-email" type="email" placeholder="you@example.com" autocomplete="off">
+            <label for="create-account-password">Create a password</label>
+            <input id="create-account-password" type="password" placeholder="Create a password" autocomplete="off">
+            <button type="button" class="button signin-submit create-account-submit">Create account <span aria-hidden="true">→</span></button>
+            <p class="signin-feedback" role="status" aria-live="polite" hidden></p>
+          </div>
+          <p class="signin-signup">Already have an account? <button type="button" class="signin-inert-link" data-page-link="signin">Sign in</button></p>
+          <p class="signin-demo-note">This account-creation screen is a visual demo. Your details aren’t sent or saved.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="contact" hidden>
+      <div class="contact-hero content-width">
+        <div>
+          <p class="section-label">COME SAY HELLO</p>
+          <h1>There’s always<br>room for <em>one more.</em></h1>
+          <p>We’d love to help you find your perfect caramel apple. Here’s a little more about our stand.</p>
+        </div>
+        <div class="contact-photo-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1695834917465-513b31b8171d?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+            alt="A sweet treat to share with friends and family"
+            loading="lazy"
+          >
+        </div>
+      </div>
+      <div class="contact-details content-width">
+        <div class="contact-card">
+          <span class="contact-icon" aria-hidden="true">✳</span>
+          <p class="section-label">OUR LITTLE BUSINESS</p>
+          <h2>Small treats.<br>Big smiles.</h2>
+          <p>We’re here to make a simple, delicious treat feel special. From that first crisp bite to the last bit of caramel, our aim is to make your day a little sweeter.</p>
+        </div>
+        <div class="contact-card contact-card-highlight">
+          <span class="contact-icon" aria-hidden="true">♡</span>
+          <p class="section-label">FIND &amp; CONTACT US</p>
+          <h2>Let’s keep<br>in touch.</h2>
+          <p>Our phone, email, location, and hours haven’t been added yet. Check back soon for the details—or ask the stand in person.</p>
+          <div class="detail-list">
+            <p><span>Location</span><strong>Details coming soon</strong></p>
+            <p><span>Hours</span><strong>Details coming soon</strong></p>
+            <p><span>Custom orders</span><strong>Details coming soon</strong></p>
+          </div>
+        </div>
+      </div>
+      <p class="mission-note content-width">Thanks for stopping by. We hope your day is a little sweeter already.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#home" data-page-link="home">The Daily Dip</a>
+    <span>Made with a little sweetness <span aria-hidden="true">♥</span></span>
+    <span>© 2026</span>
+  </footer>
+</body>
+</html>
