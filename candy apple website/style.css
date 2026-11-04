@@ -30,7 +30,7 @@ a { color: inherit; }
   min-height: 94px;
   padding: 14px max(5vw, 22px);
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
   gap: 24px;
   background: #D94A45;
@@ -59,7 +59,14 @@ a { color: inherit; }
   letter-spacing: .16em;
 }
 
-.header-note { margin: 0; text-align: center; color: #F9D88E; }
+.header-note {
+  display: block;
+  width: min(42vw, 520px);
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  filter: drop-shadow(0 2px 0 rgba(0, 0, 0, .08));
+}
 
 .header-cta {
   justify-self: end;
